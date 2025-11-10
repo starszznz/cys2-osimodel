@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The OSI Model</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <div class="fullscreen-container">
+            <h2>The Seven Layers of the OSI Model</br>Explore the different layers of the OSI model!</h2>
+            <button class="btn">Get Started</button>
+        </div>
+
+        <div class="accordion-section">
+            <div class="accordion-seven">  
+                <button class="accordion">7. Application Layer</button>
+                    <div class="panel">
+                        <p>The Seventh Layer of the OSI Model, also known as the Application Layer</p>
+                        <p>Definition + Role: </p>
+                        <p>Function: </p>
+                        <p>Protocols: </p>
+                        <p>Relationship to other layers: </p>
+                        <p>How does it ensure compatibility between systems?</p>
+                    </div>
+            </div>
+        
+        <div class="accordion-six">
+            <button class="accordion">6. Presentation Layer</button>
+            <div class="panel">
+                <p>The Sixth Layer of the OSI Model, also known as Presentation Layer</p>
+                <p>Definition + Role: </p>
+                <p>Function: </p>
+                <p>Protocols: </p>
+                <p>Relationship to other layers: </p>
+                <p>How does it ensure compatibility between systems?</p>
+            </div>
+        </div>
+        
+        <div class="accordion-five">
+            <button class="accordion">5. Session Layer</button>
+            <div class="panel">
+                <p>The Fifth Layer of the OSI Model, also known as the Session Layer</p>
+                <p>Definition + Role: </p>
+                <p>Function: </p>
+                <p>Protocols: </p>
+                <p>Relationship to other layers: </p>
+                <p>How does it ensure compatibility between systems?</p>
+            </div>
+        </div>
+        
+        <div class="accordion-four">
+            <button class="accordion">4. Transport Layer</button>
+            <div class="panel">
+                <p>The Fourth Layer of the OSI Model, also known as the Transport Layer</p>
+                <p>Definition + Role: </p>
+                <p>Function: </p>
+                <p>Protocols: </p>
+                <p>Relationship to other layers: </p>
+                <p>How does it ensure compatibility between systems?</p>
+            </div>
+        </div>
+        
+        <div class="accordion-three">
+            <button class="accordion">3. Network Layer</button>
+            <div class="panel">
+                <p>The Third Layer of the OSI Model, also known as the Network Layer</p>
+                <p>Definition + Role: </p>
+                <p>Function: </p>
+                <p>Protocols: </p>
+                <p>Relationship to other layers: </p>
+                <p>How does it ensure compatibility between systems?</p>
+            </div>
+        </div>
+        
+        <div class="accordion-two">
+            <button class="accordion">2. Data Link Layer</button>
+            <div class="panel">
+                <p>The Second Layer of the OSI Model, also known as the Data Link Layer</p>
+                <p>Definition + Role: </p>
+                <p>Function: </p>
+                <p>Protocols: </p>
+                <p>Relationship to other layers: </p>
+                <p>How does it ensure compatibility between systems?</p>
+            </div>
+        </div>
+        
+        <div class="accordion-one">
+            <button class="accordion">1. Physical Layer</button>
+            <div class="panel">
+                <p>The First Layer of the OSI Model, also known as the Physical Layer</p>
+                <p>Definition + Role: </p>
+                <p>Function: </p>
+                <p>Protocols: </p>
+                <p>Relationship to other layers: </p>
+                <p>How does it ensure compatibility between systems?</p>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>made by isabella sahagun</p>
+        </div>
+    </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+     to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+     var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+         panel.style.display = "block";
+         panel.style.padding = "20px";
+         panel.style.marginTop = "0px";
+         panel.style.marginBottom = "10px";
+         panel.style.borderWidth = "2px";
+         panel.style.borderColor = "#1e3d7a";
+         panel.style.borderStyle = "solid";
+         panel.style.borderRadius = "5px";
+         panel.style.color = "#1e3d7a";
+     }
+     });
+    }
+    </script>
+    
+</body>
+</html>

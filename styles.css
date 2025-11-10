@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.fullscreen-container {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    background-color: #639bd0;
+}
+
+.fullscreen-container .btn {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff5f;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.fullscreen-container .btn:hover {
+    opacity: 1;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(60, 100, 164);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.layer {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-section {
+    margin: 0;
+    padding: 75px;
+}
+
+.accordion-seven {
+    transition: 0.4s;
+    margin-bottom: 50px;
+}
+
+.accordion-six {
+    margin-bottom: 50px;
+}
+
+.accordion-five {
+    margin-bottom: 50px;
+}
+
+.accordion-four {
+    margin-bottom: 50px;
+}
+
+.accordion-three {
+    margin-bottom: 50px;
+}
+
+.accordion-two {
+    margin-bottom: 50px;
+}
+
+.accordion-one {
+    margin-bottom: 50px;
+}
+
+.accordion {
+    margin: 0px;
+    background-color: #ffffff;
+    color: #1e3d7a;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-size: 24px;
+    text-align: left;
+    border: 2px solid #1e3d7a;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #639bd0;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    margin: 0px;
+    padding: 0;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.footer-content{
+    text-align: left;
+    padding: 10px;
+    color: rgb(60, 88, 135);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
